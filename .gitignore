@@ -1,0 +1,8 @@
+/WpdMtpLib/obj
+/WpdMtpLib/bin
+WpdMtpLib.pdb
+/WpdMtpLib/Stub/obj
+/WpdMtpLib/Stub/bin
+/Test/bin
+/Test/obj
+*.suo
