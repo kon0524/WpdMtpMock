@@ -3,12 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2013 for Windows Desktop
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{EFD2E9CE-B07C-47E9-95E0-FD3E15C1CC77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsTest", "MsTest\MsTest.csproj", "{EFD2E9CE-B07C-47E9-95E0-FD3E15C1CC77}"
 	ProjectSection(ProjectDependencies) = postProject
 		{980DB4E0-4D06-47FB-B8EC-E6F527E32E2B} = {980DB4E0-4D06-47FB-B8EC-E6F527E32E2B}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stub", "WpdMtpLib\Stub\Stub.csproj", "{980DB4E0-4D06-47FB-B8EC-E6F527E32E2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpdMtpMock", "WpdMtpLibMock\Stub\WpdMtpMock.csproj", "{980DB4E0-4D06-47FB-B8EC-E6F527E32E2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

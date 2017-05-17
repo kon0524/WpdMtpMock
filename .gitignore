@@ -1,8 +1,7 @@
-/WpdMtpLib/obj
-/WpdMtpLib/bin
-WpdMtpLib.pdb
-/WpdMtpLib/Stub/obj
-/WpdMtpLib/Stub/bin
-/Test/bin
-/Test/obj
+WpdMtpLibMock.pdb
+/WpdMtpLibMock/Stub/obj
+/WpdMtpLibMock/Stub/bin
+/MsTest/bin
+/MsTest/obj
 *.suo
+packages/

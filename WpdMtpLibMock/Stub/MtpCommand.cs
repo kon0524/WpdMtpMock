@@ -66,7 +66,7 @@ namespace WpdMtpLib.Stub
                 case MtpOperationCode.GetObject:
                     MtpResponse res;
                     using (FileStream fs = new FileStream(
-                                        Path.GetFullPath("../../../WpdMtpLib/Stub/dummy.JPG"),
+                                        Path.GetFullPath("dummy.JPG"),
                                         FileMode.Open, FileAccess.Read))
                     {
                         byte[] goRes = new byte[fs.Length];
