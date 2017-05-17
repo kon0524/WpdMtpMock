@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 using WpdMtpLib.DeviceProperty;
@@ -65,12 +66,10 @@ namespace WpdMtpLib.Stub
                     return new MtpResponse((ushort)MtpResponseCode.OK, null, goiRes);
                 case MtpOperationCode.GetObject:
                     MtpResponse res;
-                    using (FileStream fs = new FileStream(
-                                        Path.GetFullPath("dummy.JPG"),
-                                        FileMode.Open, FileAccess.Read))
-                    {
-                        byte[] goRes = new byte[fs.Length];
-                        fs.Read(goRes, 0, goRes.Length);
+                    var assm = Assembly.GetExecutingAssembly();
+                    using (var stream = assm.GetManifestResourceStream("WpdMtpLib.Stub.dummy.JPG")) {
+                        byte[] goRes = new byte[stream.Length];
+                        stream.Read(goRes, 0, goRes.Length);
                         res = new MtpResponse((ushort)MtpResponseCode.OK, null, goRes);
                     }
                     return res;

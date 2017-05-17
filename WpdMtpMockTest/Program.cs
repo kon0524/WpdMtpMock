@@ -4,7 +4,7 @@ using WpdMtpLib;
 using WpdMtpLib.DeviceProperty;
 using MtpCommand = WpdMtpLib.Stub.MtpCommand;
 
-namespace MsTest
+namespace WpdMtpMockTest
 {
     class Program
     {

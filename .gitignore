@@ -1,7 +1,7 @@
 WpdMtpLibMock.pdb
 /WpdMtpLibMock/Stub/obj
 /WpdMtpLibMock/Stub/bin
-/MsTest/bin
-/MsTest/obj
+/WpdMtpMockTest/bin
+/WpdMtpMockTest/obj
 *.suo
 packages/
