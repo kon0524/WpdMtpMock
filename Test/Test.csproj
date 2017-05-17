@@ -39,6 +39,10 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="WpdMtpLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WpdMtpLib.1.0.0\lib\net40-client\WpdMtpLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -46,15 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WpdMtpLib\Stub\Stub.csproj">
       <Project>{980db4e0-4d06-47fb-b8ec-e6f527e32e2b}</Project>
       <Name>Stub</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WpdMtpLib\WpdMtpLib.csproj">
-      <Project>{4f05d585-be9a-4158-bc28-8a56fd20f9ce}</Project>
-      <Name>WpdMtpLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
