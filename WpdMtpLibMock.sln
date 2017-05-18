@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpdMtpMockTest", "WpdMtpMoc
 		{980DB4E0-4D06-47FB-B8EC-E6F527E32E2B} = {980DB4E0-4D06-47FB-B8EC-E6F527E32E2B}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpdMtpMock", "WpdMtpLibMock\Stub\WpdMtpMock.csproj", "{980DB4E0-4D06-47FB-B8EC-E6F527E32E2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpdMtp", "WpdMtpLib\Stub\WpdMtpMock.csproj", "{980DB4E0-4D06-47FB-B8EC-E6F527E32E2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

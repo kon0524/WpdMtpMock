@@ -1,6 +1,6 @@
 WpdMtpLibMock.pdb
-/WpdMtpLibMock/Stub/obj
-/WpdMtpLibMock/Stub/bin
+/WpdMtpLib/Stub/obj
+/WpdMtpLib/Stub/bin
 /WpdMtpMockTest/bin
 /WpdMtpMockTest/obj
 *.suo

@@ -50,10 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WpdMtpLibMock\Stub\WpdMtpMock.csproj">
+    <ProjectReference Include="..\WpdMtpLib\Stub\WpdMtpMock.csproj">
       <Project>{980db4e0-4d06-47fb-b8ec-e6f527e32e2b}</Project>
       <Name>WpdMtpMock</Name>
     </ProjectReference>
